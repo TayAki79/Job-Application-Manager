@@ -52,7 +52,7 @@ a {
 }
 
 .title {
-  width: 600px;
+  width: 650px;
   height: 450px;
   margin-top: 100px;
   margin-left: 180px;
@@ -70,6 +70,11 @@ h1 {
 .title p {
   color: brown;
   margin-top: 20px;
+}
+
+.title-name {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .title > ul > li {
