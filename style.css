@@ -112,3 +112,44 @@ h1 {
   margin-left: 15px;
   width: 500px;
 }
+
+@media only screen and (max-width: 980px) {
+  body {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  body img {
+    max-width: 375px;
+    text-align: left;
+  }
+
+  header {
+    max-width: 375px;
+    padding: 0;
+  }
+
+  header .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav{
+    display: none;
+  }
+
+  .title {
+    height: 570px;
+    max-width: 375px;
+    margin-left: 0;
+    top: 250px;
+    text-align: center;
+  }
+
+  .title > ul > li {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 323px;
+    text-align: center;
+  }
+}
