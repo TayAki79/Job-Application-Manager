@@ -201,6 +201,7 @@ p > span {
   header {
     max-width: 355px;
     padding: 0;
+    text-align: center;
   }
 
   .title {
