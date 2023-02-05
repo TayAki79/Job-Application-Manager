@@ -199,13 +199,16 @@ p > span {
   }
 
   header {
-    max-width: 355px;
+    max-width: 375px;
     padding: 0;
     text-align: center;
   }
 
   .text-wrapper {
     width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
     margin-top: 30px;
   }
@@ -216,10 +219,11 @@ p > span {
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 7rem;
   }
 
   .title p {
+    width: 355px;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
