@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *,
@@ -28,35 +30,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 200px;
+  padding-inline: 100px;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 
+header .logo {
+  font-size: 4.8rem;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #ED213A;
+  background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);
+  background: linear-gradient(to bottom, #93291E, #ED213A);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 nav > ul {
-  width: 500px;
+  width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-
-header .logo {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 4rem;
-  font-weight: bold;
-  color: brown;
-}
-
-.gradient {
-  background: #CFCAC9;
-background: linear-gradient(to top, #CFCAC9 0%, #C41411 50%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-}
-
 
 li {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,18 +64,28 @@ li {
 }
 
 .nav-btn {
-  width: 110px;
-  height: 30px;
-  text-align: center;
-  background-color: brown;
-  color: white;
-  padding: 6px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background: #ED213A;
+  background: -webkit-linear-gradient(to left, #93291E, #ED213A);
+  background: linear-gradient(to left, #93291E, #ED213A);
+  background-size: 100%;
   border: none;
   border-radius: 5px;
 }
 
 a {
   text-decoration: none;
+  color: #93291E;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-btn > a {
+  color: white;
 }
 
 .title {
